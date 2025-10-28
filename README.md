@@ -1,4 +1,4 @@
-# \# 🕒 ESP Study Clock
+# &nbsp;🕒 ESP Study Clock
 
 # 
 
@@ -14,11 +14,11 @@
 
 
 
-# \## ✨ Features
+# &nbsp;✨ Features
 
 # 
 
-# \### 🕰️ Time \& Date
+# &nbsp;🕰️ Time \& Date
 
 # \- Real-time clock with \*\*NTP synchronization\*\*
 
@@ -40,7 +40,7 @@
 
 # 
 
-# \### 🎨 Display Themes (13 Variants)
+# &nbsp;🎨 Display Themes (13 Variants)
 
 # Choose from a wide range of layouts and visual styles:
 
@@ -76,7 +76,7 @@
 
 # 
 
-# \### ⏰ Alarm System
+# &nbsp;⏰ Alarm System
 
 # \- Supports \*\*up to 3 concurrent alarms\*\*
 
@@ -110,7 +110,7 @@
 
 # 
 
-# \### ⏱️ Stopwatch
+# &nbsp;⏱️ Stopwatch
 
 # \- Full-featured stopwatch with \*\*millisecond precision\*\*
 
@@ -128,7 +128,7 @@
 
 # 
 
-# \### ⏲️ Timer
+# &nbsp;⏲️ Timer
 
 # \- Configurable \*\*countdown timer\*\* (H:M:S)
 
@@ -146,7 +146,7 @@
 
 # 
 
-# \### 📅 Events Calendar
+# &nbsp;📅 Events Calendar
 
 # \- Loads events dynamically from \*\*SPIFFS (events.json)\*\*
 
@@ -168,7 +168,7 @@
 
 # 
 
-# \### 🌡️ Environmental Sensing
+# &nbsp;🌡️ Environmental Sensing
 
 # \- \*\*AHT10 Sensor Integration\*\*
 
@@ -186,9 +186,9 @@
 
 # 
 
-# \### ⚙️ System Settings
+# ⚙️ System Settings
 
-# \#### 🔹 WiFi Management
+# &nbsp;🔹 WiFi Management
 
 # \- Built-in \*\*WiFiManager\*\* for easy setup
 
@@ -200,7 +200,7 @@
 
 # 
 
-# \#### 🔹 Display Settings
+# &nbsp;🔹 Display Settings
 
 # \- Select from 13 \*\*themes\*\*
 
@@ -208,7 +208,7 @@
 
 # 
 
-# \#### 🔹 Sound Settings
+# &nbsp;🔹 Sound Settings
 
 # \- \*\*Buzzer toggle\*\*
 
@@ -216,7 +216,7 @@
 
 # 
 
-# \#### 🔹 Storage Management
+# &nbsp;🔹 Storage Management
 
 # \- \*\*SPIFFS file system\*\* for data and events
 
@@ -224,7 +224,7 @@
 
 # 
 
-# \#### 🔹 Sensor Controls
+# &nbsp;🔹 Sensor Controls
 
 # \- Enable/disable \*\*temperature\*\* and \*\*humidity\*\* sensors
 
@@ -234,7 +234,7 @@
 
 # 
 
-# \### 🔩 Hardware Integration
+# 🔩 Hardware Integration
 
 # | Component | Function |
 
@@ -260,7 +260,7 @@
 
 # 
 
-# \### 🖥️ UI \& Navigation
+# 🖥️ UI \& Navigation
 
 # \- Intuitive \*\*menu-based interface\*\*
 
