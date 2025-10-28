@@ -1,278 +1,229 @@
-# &nbsp;🕒 ESP Study Clock
+&nbsp;🕒 ESP Study Clock
 
-# 
+A \*\*feature-packed smart study clock\*\* built on the \*\*ESP32 microcontroller\*\*, designed to be both beautiful and functional.
 
-# A \*\*feature-packed smart study clock\*\* built on the \*\*ESP32 microcontroller\*\*, designed to be both beautiful and functional.
+It integrates real-time synchronization, alarms, weather, events, and multiple stunning display themes — all controllable through an intuitive user interface.
 
-# It integrates real-time synchronization, alarms, weather, events, and multiple stunning display themes — all controllable through an intuitive user interface.
+ 
 
-# 
+---
 
-# ---
+🎥 \*\*Demo Video:\*\* \[Watch on YouTube](https://youtu.be/ajnAWAT7DW0)
 
-# 🎥 \*\*Demo Video:\*\* \[Watch on YouTube](https://youtu.be/ajnAWAT7DW0)
 
 
+&nbsp;✨ Features
 
-# &nbsp;✨ Features
+&nbsp;🕰️ Time \& Date
 
-# 
+\- Real-time clock with \*\*NTP synchronization\*\*
 
-# &nbsp;🕰️ Time \& Date
+\- \*\*Offline timekeeping\*\* with manual fallback
 
-# \- Real-time clock with \*\*NTP synchronization\*\*
+\- Multiple \*\*date/time format\*\* options (12H / 24H)
 
-# \- \*\*Offline timekeeping\*\* with manual fallback
+\- Customizable \*\*GMT offset\*\*
 
-# \- Multiple \*\*date/time format\*\* options (12H / 24H)
+\- \*\*Week number\*\* display
 
-# \- Customizable \*\*GMT offset\*\*
+\- \*\*Total days\*\* counter since first use
 
-# \- \*\*Week number\*\* display
+\- \*\*Hourly chime\*\* function with optional sound
 
-# \- \*\*Total days\*\* counter since first use
+---
+ 
 
-# \- \*\*Hourly chime\*\* function with optional sound
+&nbsp;🎨 Display Themes (13 Variants)
 
-# 
+Choose from a wide range of layouts and visual styles:
 
-# ---
+1\. Classic Date-Time-Events
 
-# 
+2\. Minimal Time Only
 
-# &nbsp;🎨 Display Themes (13 Variants)
+3\. Classic 2.0
 
-# Choose from a wide range of layouts and visual styles:
+4\. Minimal Inverted
 
-# 1\. Classic Date-Time-Events
+5\. Classic DTE Inverted
 
-# 2\. Minimal Time Only
+6\. Analog Clock Face
 
-# 3\. Classic 2.0
+7\. Detailed Information
 
-# 4\. Minimal Inverted
+8\. Boxee Layout
 
-# 5\. Classic DTE Inverted
+9\. Classic Boxee
 
-# 6\. Analog Clock Face
+10\. Dial Display
 
-# 7\. Detailed Information
+11\. Bar Clock Animation
 
-# 8\. Boxee Layout
+12\. Classic 3.0
 
-# 9\. Classic Boxee
+13\. Weather View
 
-# 10\. Dial Display
+---
 
-# 11\. Bar Clock Animation
+&nbsp;⏰ Alarm System
 
-# 12\. Classic 3.0
+\- Supports \*\*up to 3 concurrent alarms\*\*
 
-# 13\. Weather View
+\- \*\*8 selectable alarm tones:\*\*
 
-# 
+  - Basic Beep
 
-# ---
+  - Digital
 
-# 
+  - Classic Bell
 
-# &nbsp;⏰ Alarm System
+  - Chime
 
-# \- Supports \*\*up to 3 concurrent alarms\*\*
+  - Morning Bird
 
-# \- \*\*8 selectable alarm tones:\*\*
+  - Soft Bells
 
-#   - Basic Beep
+  - Gentle Rise
 
-#   - Digital
+  - Marimba
 
-#   - Classic Bell
+\- Configurable \*\*snooze duration\*\*
 
-#   - Chime
+\- \*\*Auto-delete\*\* on stop
 
-#   - Morning Bird
+\- Easy alarm management through menu interface 
 
-#   - Soft Bells
+---
+ 
+&nbsp;⏱️ Stopwatch
 
-#   - Gentle Rise
+\- Full-featured stopwatch with \*\*millisecond precision\*\*
 
-#   - Marimba
+\- \*\*Two lap memory\*\* slots
 
-# \- Configurable \*\*snooze duration\*\*
+\- \*\*Start / Pause / Reset\*\* functionality
 
-# \- \*\*Auto-delete\*\* on stop
+\- Quick access via \*\*UP button shortcut\*\*
 
-# \- Easy alarm management through menu interface
+\- Persistent display during operation
+ 
+---
 
-# 
+&nbsp;⏲️ Timer
 
-# ---
+\- Configurable \*\*countdown timer\*\* (H:M:S)
 
-# 
+\- \*\*Start / Pause / Resume / Reset\*\* controls
 
-# &nbsp;⏱️ Stopwatch
+\- Quick access via \*\*DOWN button shortcut\*\*
 
-# \- Full-featured stopwatch with \*\*millisecond precision\*\*
+\- \*\*Auto alert\*\* on completion
 
-# \- \*\*Two lap memory\*\* slots
+\- Saves last set duration
 
-# \- \*\*Start / Pause / Reset\*\* functionality
+---
+ 
+&nbsp;📅 Events Calendar
 
-# \- Quick access via \*\*UP button shortcut\*\*
+\- Loads events dynamically from \*\*SPIFFS (events.json)\*\*
 
-# \- Persistent display during operation
+\- Multiple viewing modes:
 
-# 
+  - \*\*Today’s Events\*\*
 
-# ---
+  - \*\*All Events List\*\*
 
-# 
+  - \*\*Monthly Calendar View\*\*
 
-# &nbsp;⏲️ Timer
+\- \*\*Scrolling text\*\* for long event names
 
-# \- Configurable \*\*countdown timer\*\* (H:M:S)
+\- \*\*Date-based organization\*\* of events 
 
-# \- \*\*Start / Pause / Resume / Reset\*\* controls
+---
 
-# \- Quick access via \*\*DOWN button shortcut\*\*
+&nbsp;🌡️ Environmental Sensing
 
-# \- \*\*Auto alert\*\* on completion
+\- \*\*AHT10 Sensor Integration\*\*
 
-# \- Saves last set duration
+  - Temperature display (°C)
 
-# 
+  - Humidity monitoring (%)
 
-# ---
+\- Toggle temperature/humidity display in settings
 
-# 
+\- Integrates with various display themes
 
-# &nbsp;📅 Events Calendar
+---
 
-# \- Loads events dynamically from \*\*SPIFFS (events.json)\*\*
+⚙️ System Settings
 
-# \- Multiple viewing modes:
+&nbsp;🔹 WiFi Management
 
-#   - \*\*Today’s Events\*\*
+\- Built-in \*\*WiFiManager\*\* for easy setup
 
-#   - \*\*All Events List\*\*
+\- Displays \*\*connection status\*\*
 
-#   - \*\*Monthly Calendar View\*\*
+\- \*\*Forget network\*\* function
 
-# \- \*\*Scrolling text\*\* for long event names
+\- \*\*Auto-reconnect\*\* on startup
 
-# \- \*\*Date-based organization\*\* of events
+&nbsp;🔹 Display Settings
 
-# 
+\- Select from 13 \*\*themes\*\*
 
-# ---
+\- \*\*Live theme preview\*\* before applying 
 
-# 
+&nbsp;🔹 Sound Settings
 
-# &nbsp;🌡️ Environmental Sensing
+\- \*\*Buzzer toggle\*\*
 
-# \- \*\*AHT10 Sensor Integration\*\*
+\- \*\*Second-hand tick\*\* sound toggle
 
-#   - Temperature display (°C)
+&nbsp;🔹 Storage Management
 
-#   - Humidity monitoring (%)
+\- \*\*SPIFFS file system\*\* for data and events
 
-# \- Toggle temperature/humidity display in settings
+\- View \*\*storage usage\*\* and status
 
-# \- Integrates with various display themes
+&nbsp;🔹 Sensor Controls
 
-# 
+\- Enable/disable \*\*temperature\*\* and \*\*humidity\*\* sensors
 
-# ---
+---
 
-# 
+🔩 Hardware Integration
 
-# ⚙️ System Settings
+| Component | Function |
 
-# &nbsp;🔹 WiFi Management
+|------------|-----------|
 
-# \- Built-in \*\*WiFiManager\*\* for easy setup
+| \*\*ESP32 Dev Kit\*\* | Main controller (WiFi + processing) |
 
-# \- Displays \*\*connection status\*\*
+| \*\*128x64 I²C OLED Display\*\* | Primary user interface |
 
-# \- \*\*Forget network\*\* function
+| \*\*AHT10 Sensor\*\* | Temperature \& humidity |
 
-# \- \*\*Auto-reconnect\*\* on startup
+| \*\*Piezo Buzzer\*\* | Alarms and notifications |
 
-# 
+| \*\*Buttons (via ADC)\*\* | Menu navigation and shortcuts |
 
-# &nbsp;🔹 Display Settings
+| \*\*EEPROM\*\* | Persistent user settings |
 
-# \- Select from 13 \*\*themes\*\*
+| \*\*SPIFFS\*\* | Event and configuration storage |
 
-# \- \*\*Live theme preview\*\* before applying
+---
 
-# 
+🖥️ UI \& Navigation
 
-# &nbsp;🔹 Sound Settings
+\- Intuitive \*\*menu-based interface\*\*
 
-# \- \*\*Buzzer toggle\*\*
+\- \*\*Shortcut buttons\*\* for stopwatch/timer
 
-# \- \*\*Second-hand tick\*\* sound toggle
+\- \*\*Scrolling text\*\* for long content
 
-# 
+\- \*\*Confirmation dialogs\*\* for critical actions
 
-# &nbsp;🔹 Storage Management
+\- \*\*Status messages\*\* for user feedback
 
-# \- \*\*SPIFFS file system\*\* for data and events
-
-# \- View \*\*storage usage\*\* and status
-
-# 
-
-# &nbsp;🔹 Sensor Controls
-
-# \- Enable/disable \*\*temperature\*\* and \*\*humidity\*\* sensors
-
-# 
-
-# ---
-
-# 
-
-# 🔩 Hardware Integration
-
-# | Component | Function |
-
-# |------------|-----------|
-
-# | \*\*ESP32 Dev Kit\*\* | Main controller (WiFi + processing) |
-
-# | \*\*128x64 I²C OLED Display\*\* | Primary user interface |
-
-# | \*\*AHT10 Sensor\*\* | Temperature \& humidity |
-
-# | \*\*Piezo Buzzer\*\* | Alarms and notifications |
-
-# | \*\*Buttons (via ADC)\*\* | Menu navigation and shortcuts |
-
-# | \*\*EEPROM\*\* | Persistent user settings |
-
-# | \*\*SPIFFS\*\* | Event and configuration storage |
-
-# 
-
-# ---
-
-# 
-
-# 🖥️ UI \& Navigation
-
-# \- Intuitive \*\*menu-based interface\*\*
-
-# \- \*\*Shortcut buttons\*\* for stopwatch/timer
-
-# \- \*\*Scrolling text\*\* for long content
-
-# \- \*\*Confirmation dialogs\*\* for critical actions
-
-# \- \*\*Status messages\*\* for user feedback
-
-# \- \*\*Battery-efficient display updates\*\*
-
-# 
+\- \*\*Battery-efficient display updates\*\*
 
