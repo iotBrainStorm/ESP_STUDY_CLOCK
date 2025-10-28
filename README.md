@@ -2,7 +2,7 @@
 
 # 
 
-# A \*\*feature-packed smart study clock\*\* built on the \*\*ESP32 microcontroller\*\*, designed to be both beautiful and functional.  
+# A \*\*feature-packed smart study clock\*\* built on the \*\*ESP32 microcontroller\*\*, designed to be both beautiful and functional.
 
 # It integrates real-time synchronization, alarms, weather, events, and multiple stunning display themes — all controllable through an intuitive user interface.
 
@@ -10,7 +10,9 @@
 
 # ---
 
-# 
+# 🎥 \*\*Demo Video:\*\* \[Watch on YouTube](https://youtu.be/ajnAWAT7DW0)
+
+
 
 # \## ✨ Features
 
@@ -42,31 +44,31 @@
 
 # Choose from a wide range of layouts and visual styles:
 
-# 1\. Classic Date-Time-Events  
+# 1\. Classic Date-Time-Events
 
-# 2\. Minimal Time Only  
+# 2\. Minimal Time Only
 
-# 3\. Classic 2.0  
+# 3\. Classic 2.0
 
-# 4\. Minimal Inverted  
+# 4\. Minimal Inverted
 
-# 5\. Classic DTE Inverted  
+# 5\. Classic DTE Inverted
 
-# 6\. Analog Clock Face  
+# 6\. Analog Clock Face
 
-# 7\. Detailed Information  
+# 7\. Detailed Information
 
-# 8\. Boxee Layout  
+# 8\. Boxee Layout
 
-# 9\. Classic Boxee  
+# 9\. Classic Boxee
 
-# 10\. Dial Display  
+# 10\. Dial Display
 
-# 11\. Bar Clock Animation  
+# 11\. Bar Clock Animation
 
-# 12\. Classic 3.0  
+# 12\. Classic 3.0
 
-# 13\. Weather View  
+# 13\. Weather View
 
 # 
 
@@ -80,21 +82,21 @@
 
 # \- \*\*8 selectable alarm tones:\*\*
 
-# &nbsp; - Basic Beep  
+#   - Basic Beep
 
-# &nbsp; - Digital  
+#   - Digital
 
-# &nbsp; - Classic Bell  
+#   - Classic Bell
 
-# &nbsp; - Chime  
+#   - Chime
 
-# &nbsp; - Morning Bird  
+#   - Morning Bird
 
-# &nbsp; - Soft Bells  
+#   - Soft Bells
 
-# &nbsp; - Gentle Rise  
+#   - Gentle Rise
 
-# &nbsp; - Marimba
+#   - Marimba
 
 # \- Configurable \*\*snooze duration\*\*
 
@@ -150,11 +152,11 @@
 
 # \- Multiple viewing modes:
 
-# &nbsp; - \*\*Today’s Events\*\*
+#   - \*\*Today’s Events\*\*
 
-# &nbsp; - \*\*All Events List\*\*
+#   - \*\*All Events List\*\*
 
-# &nbsp; - \*\*Monthly Calendar View\*\*
+#   - \*\*Monthly Calendar View\*\*
 
 # \- \*\*Scrolling text\*\* for long event names
 
@@ -170,9 +172,9 @@
 
 # \- \*\*AHT10 Sensor Integration\*\*
 
-# &nbsp; - Temperature display (°C)
+#   - Temperature display (°C)
 
-# &nbsp; - Humidity monitoring (%)
+#   - Humidity monitoring (%)
 
 # \- Toggle temperature/humidity display in settings
 
@@ -188,7 +190,7 @@
 
 # \#### 🔹 WiFi Management
 
-# \- Built-in \*\*WiFiManager\*\* for easy setup  
+# \- Built-in \*\*WiFiManager\*\* for easy setup
 
 # \- Displays \*\*connection status\*\*
 
@@ -273,8 +275,4 @@
 # \- \*\*Battery-efficient display updates\*\*
 
 # 
-
-# ---
-
-
 
