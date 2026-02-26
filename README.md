@@ -188,39 +188,15 @@ Choose from a wide range of layouts and visual styles:
 
 🔩 Hardware Integration
 
-| Component | Function |
-
-|------------|-----------|
-
-| \*\*ESP32 Dev Kit\*\* | Main controller (WiFi + processing) |
-
-| \*\*128x64 I²C OLED Display\*\* | Primary user interface |
-
-| \*\*AHT10 Sensor\*\* | Temperature \& humidity |
-
-| \*\*Piezo Buzzer\*\* | Alarms and notifications |
-
-| \*\*Buttons (via ADC)\*\* | Menu navigation and shortcuts |
-
-| \*\*EEPROM\*\* | Persistent user settings |
-
-| \*\*SPIFFS\*\* | Event and configuration storage |
-
----
+| Component                             | Interface             | GPIO Pins                    | Function                     | Notes              |
+| ------------------------------------- | --------------------- | ---------------------------- | ---------------------------- | ------------------ |
+| **ESP32 Dev Kit**                     | USB/5V                | -                            | Main controller              | WiFi + BLE enabled |
+| **128x64 I²C OLED Display**           | I²C                   | GPIO 21 (SDA), GPIO 22 (SCL) | Primary UI display           | Address: 0x3C      |
+| **AHT10 Temperature/Humidity Sensor** | I²C                   | GPIO 21 (SDA), GPIO 22 (SCL) | Sensor reading               | Address: 0x38      |
+| **Piezo Buzzer**                      | GPIO (PWM)            | GPIO 32                      | Audio alerts & notifications | 3.3V               |
+| **Push Buttons (Menu/Up/Down)**       | ADC (Voltage divider) | GPIO 34 (ADC1_6)             | Menu navigation & control    | Shared single pin  |
 
 � Circuit Diagram & Connections
-
-**ESP32 Pinout Overview:**
-
-```
-ESP32 DEV KIT V1
-┌─────────────────────┐
-│    [USB]            │
-│ ┌───────────────┐   │
-│ │    ESP32      │   │
-│ └───────────────┘   │
-└─────────────────────┘
-```
 
 **Component Connections:**
 
