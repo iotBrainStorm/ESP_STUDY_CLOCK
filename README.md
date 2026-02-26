@@ -250,10 +250,13 @@ step2. 3.3V -- 150Ω -- [Menu Button] -- GND (for menu control)
 
 step3. 3.3V -- 1kΩ -- [at this junction one terminal of push button be connected here and another terminal be connected to D34] -- 1kΩ -- [at this junction one terminal of push button be connected here and another terminal be connected to D34 Button] -- 1kΩ -- GND
 
-one 150Ω for menu
-three 1kΩ for series chain to control menu
-one 10kΩ for reduce noise at D34
-\*\*Note: if you press both Up Button and Down button together then it works as Reset Button
+one 150Ω for menu,
+
+three 1kΩ for series chain to control menu,
+
+one 10kΩ for reduce noise at D34,
+
+Note: if you press both Up Button and Down button together then it works as Reset Button
 
 🖥️ **OLED Display Connections:**
 
