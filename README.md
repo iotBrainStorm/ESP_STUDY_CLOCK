@@ -278,13 +278,13 @@ Note: if you press both Up Button and Down button together then it works as Rese
 
 - Positive pin → **GPIO 32** (PWM output)
 - Negative pin → **GND**
-- Resistor: 200Ω in series recommended for current limiting
 - Operating voltage: 3.3V
 
 🔘 **Button Connections (ADC Voltage Divider Network):**
 
 - **Network Chain:** 3.3V → 1kΩ → Button 1 → 1kΩ → Button 2 → 1kΩ → **GPIO 34** → 10kΩ → GND
-- All three buttons connected in series with 1kΩ resistors each
+- Up and Down buttons connected in series with 1kΩ resistors each
+- Menu button directly connected to GPIO 34 through 150Ω resistor
 - GPIO 34 pulled down to GND through 10kΩ resistor
 - Each button press creates different voltage divider output on GPIO 34
 - ADC reads voltage levels to determine which button was pressed
